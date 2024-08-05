@@ -1,12 +1,12 @@
 {
   "routes": [
     {
-      "route": "/",
-      "redirect": "/index"
+      "route": "/index",
+      "rewrite": "/"
     },
     {
-      "route": "/index",
-      "rewrite": "/index.htm"
+      "route": "/",
+      "redirect": "/index"
     }
   ]
 }
