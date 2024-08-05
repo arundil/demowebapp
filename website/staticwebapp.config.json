@@ -1,15 +1,12 @@
 {
   "routes": [
     {
-      "route": "/index.html",
-      "redirect": "/foobar"
+      "route": "/",
+      "redirect": "/index"
     },
     {
-      "route": "/",
-      "redirect": "/foobar"
+      "route": "/index",
+      "rewrite": "/index.htm"
     }
-  ],
-  "navigationFallback": {
-    "rewrite": "/foobar/index.html"
-  }
+  ]
 }
