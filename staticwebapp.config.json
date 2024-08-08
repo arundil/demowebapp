@@ -11,5 +11,8 @@
   ],
   "navigationFallback": {
     "rewrite": "/subpath/index.html"
+  },
+  "globalHeaders": {
+    "Cache-Control": "no-store"
   }
 }
