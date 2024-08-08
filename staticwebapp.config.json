@@ -1,8 +1,15 @@
 {
   "routes": [
     {
-      "route": "/subpath",
-      "rewrite": "/"
+      "route": "/index.html",
+      "redirect": "/subpath"
+    },
+    {
+      "route": "/",
+      "redirect": "/subpath"
     }
-  ]
+  ],
+  "navigationFallback": {
+    "rewrite": "/subpath/index.html"
+  }
 }
